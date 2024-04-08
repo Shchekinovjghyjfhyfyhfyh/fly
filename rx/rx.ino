@@ -1,16 +1,27 @@
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
-#define PIN_LED 3
-#define PIN_CE  10
-#define PIN_CSN 9
+// Include something for MPU6050
 
-RF24 radio(PIN_CE, PIN_CSN);
+#include "pins.h"
+
+RF24 radio(PIN_RF_CE, PIN_RF_CSN);
 
 void setup() {
 
+  // Setup LEDs
+  pinMode(PIN_LED1, OUTPUT);
+  pinMode(PIN_LED2, OUTPUT);
+  pinMode(PIN_LED3, OUTPUT);
+  pinMode(PIN_LED4, OUTPUT);
+
+  // Setup motors
+  pinMode(PIN_MOTOR1, OUTPUT);
+  pinMode(PIN_MOTOR2, OUTPUT);
+  pinMode(PIN_MOTOR3, OUTPUT);
+  pinMode(PIN_MOTOR4, OUTPUT);
+
   // Setup radio
-  pinMode(PIN_LED, OUTPUT);
   radio.begin();
   radio.setChannel(5);
   radio.setDataRate (RF24_1MBPS);
@@ -18,6 +29,10 @@ void setup() {
   radio.openReadingPipe (1, 0x7878787878LL);
   radio.startListening();
 
+  // Setup MPU
+  // ---
+
+  // Setup ---
   // ---
 }
 
