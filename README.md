@@ -12,5 +12,5 @@ A simple small-sized drone with a camera.
 ## Authors
 * Буторин Даниил ()
 * Савлукович Павел (transmitter design)
-* Какой-то Николай (transmitter programming)
+* Харанжевский Николай (transmitter programming)
 * Щекинов Михаил ()
