@@ -5,9 +5,9 @@ A simple small-sized drone with a camera.
 
 ## Components
 ### Receiver
-![ReceiverCircuit][rx/circuit/rx.svg]
+![ReceiverCircuit](rx/circuit/rx.svg)
 ### Transmitter
-![TransmitterCircuit][tx/circuit/tx.svg]
+![TransmitterCircuit](tx/circuit/tx.svg)
 
 ## Authors
 * Буторин Даниил ()
