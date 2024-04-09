@@ -1,0 +1,3 @@
+
+Interface MPU6050 Accelerometer and Gyroscope Sensor with Arduino
+    https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/
