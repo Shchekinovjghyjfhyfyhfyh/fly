@@ -15,8 +15,8 @@
 
 #define PIN_MOTOR1 5
 #define PIN_MOTOR2 6
-#define PIN_MOTOR3 7
-#define PIN_MOTOR4 8
+#define PIN_MOTOR3 9
+#define PIN_MOTOR4 10
 
 #define PIN_MPU_SCL A5
 #define PIN_MPU_SDA A4
